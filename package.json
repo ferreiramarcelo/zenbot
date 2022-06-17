@@ -30,9 +30,15 @@
     "timebucket": "^0.4.0",
     "twit": "^2.2.4",
     "zenbrain": "git+https://github.com/carlos8f/zenbrain.git#bbda526bb833d9b258d8e6d187c1d5789c4cead0",
-    "zero-fill": "^2.2.3"
+    "zero-fill": "^2.2.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "axios": "^0.13.1"
-  }
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
