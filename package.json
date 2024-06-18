@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "ansi_up": "^1.3.0",
-    "bitfinex-api-node": "^1.0.1",
+    "bitfinex-api-node": "^4.0.11",
     "coinbase-exchange": "git+https://github.com/carlos8f/coinbase-exchange-node.git#e6133d9a9e4ee3c5f911ba533529167e16e99324",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
